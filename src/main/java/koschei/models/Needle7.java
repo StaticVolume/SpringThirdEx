@@ -6,8 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Needle7 {
 
+    private Deth8 deth = new Deth8();
     @Override
     public String toString() {
-        return ", смерть Кощея на игле :( " + ""; //Юмор понял :D
+        return ", смерть Кощея на игле :( " + deth.toString(); //Юмор понял :D
     }
 }
